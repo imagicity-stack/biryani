@@ -132,11 +132,11 @@ export default function ExperiencePage() {
               Be <span className="text-gold-gradient">Received.</span>
             </h2>
             <p className="mx-auto mt-6 max-w-md font-body text-base leading-relaxed text-cream-dim">
-              The ceremony begins the moment you write to us.
+              The ceremony is kept for those who come to the pavilion itself.
             </p>
             <div className="mt-10">
               <Link href="/contact" className="btn-royal">
-                Request the Table
+                Find the Pavilion
               </Link>
             </div>
           </Reveal>

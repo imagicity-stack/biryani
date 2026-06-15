@@ -1,36 +1,51 @@
 import type { Metadata } from "next";
 import { PageHeader } from "@/components/PageHeader";
-import { ContactForm } from "@/components/ContactForm";
 import { Reveal } from "@/components/Reveal";
-import { Medallion, Paisley, Crown } from "@/components/Ornaments";
+import { Medallion, MughalArch, Paisley, Crown } from "@/components/Ornaments";
 import { CONTACT, BRAND } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Enquire",
+  title: "Contact",
   description:
-    "Mirzava is prepared in limited number and served by enquiry. Share your occasion, and our kitchen will write to you.",
+    "Find Mirzava — a single pavilion in the old quarter of Hyderabad, beside the Charminar. Location, hours and direct contact.",
 };
 
 export default function ContactPage() {
   return (
     <>
       <PageHeader
-        eyebrow="Request the Table"
-        title="Enquire"
+        eyebrow="Where to Find Us"
+        title="The Pavilion"
         intro={CONTACT.invite}
       />
 
       <section className="relative overflow-hidden pb-32">
         <Medallion className="pointer-events-none absolute -right-52 top-10 h-[640px] w-[640px] text-gold/[0.04]" />
         <div className="relative mx-auto max-w-royal px-6 sm:px-8">
-          <div className="grid grid-cols-1 gap-14 lg:grid-cols-[1.4fr_1fr] lg:gap-20">
-            {/* Form */}
-            <Reveal>
-              <ContactForm />
+          <div className="grid grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-20">
+            {/* Decorative visual */}
+            <Reveal className="order-2 lg:order-1">
+              <div className="relative mx-auto aspect-[4/5] w-full max-w-sm">
+                <div className="arch-clip absolute inset-0 bg-gradient-to-b from-gold/40 to-gold/5" />
+                <div className="arch-clip absolute inset-[1.5px] overflow-hidden bg-noir-ink">
+                  <Medallion className="animate-spinSlow absolute left-1/2 top-1/2 h-[170%] w-[170%] -translate-x-1/2 -translate-y-1/2 text-gold/10" />
+                  <div className="absolute inset-0 flex flex-col items-center justify-center gap-4">
+                    <Crown className="h-16 w-16 text-gold/70" />
+                    <p className="font-display text-3xl italic text-gold/80">
+                      Hyderabad
+                    </p>
+                    <p className="font-label text-[0.6rem] uppercase tracking-[0.3em] text-cream-dim">
+                      By the Charminar
+                    </p>
+                  </div>
+                  <div className="animate-pulseGlow absolute -bottom-8 left-1/2 h-32 w-48 -translate-x-1/2 rounded-full bg-saffron/25 blur-3xl" />
+                </div>
+                <MughalArch className="pointer-events-none absolute -inset-4 -z-10 text-gold/15" />
+              </div>
             </Reveal>
 
             {/* Details */}
-            <Reveal delay={0.1}>
+            <Reveal className="order-1 lg:order-2" delay={0.1}>
               <div className="space-y-12">
                 <div>
                   <div className="flex items-center gap-3">

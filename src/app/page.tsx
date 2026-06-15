@@ -126,11 +126,11 @@ export default function HomePage() {
       <section className="relative overflow-hidden border-t border-gold/15 bg-noir-soft py-28 sm:py-36">
         <div className="relative mx-auto grid max-w-royal grid-cols-1 items-center gap-16 px-6 sm:px-8 lg:grid-cols-2">
           <Reveal>
-            <div className="relative mx-auto max-w-sm">
+            <div className="relative mx-auto aspect-[4/5] w-full max-w-sm">
               <div className="arch-clip absolute inset-0 bg-gradient-to-b from-gold/40 to-gold/5" />
               <div className="arch-clip absolute inset-[1.5px] overflow-hidden bg-noir-ink">
                 <Medallion className="animate-spinSlow absolute left-1/2 top-1/2 h-[170%] w-[170%] -translate-x-1/2 -translate-y-1/2 text-gold/10" />
-                <div className="flex aspect-[4/5] items-center justify-center">
+                <div className="absolute inset-0 flex items-center justify-center">
                   <Crown className="h-20 w-20 text-gold/70" />
                 </div>
                 <div className="animate-pulseGlow absolute -bottom-8 left-1/2 h-32 w-48 -translate-x-1/2 rounded-full bg-saffron/25 blur-3xl" />
@@ -208,17 +208,17 @@ export default function HomePage() {
           <Reveal>
             <Crown className="mx-auto h-10 w-10 text-gold" />
             <h2 className="mt-6 font-display text-5xl leading-tight text-cream sm:text-6xl">
-              The Table Is Set
+              Kept for
               <br />
-              <span className="text-gold-gradient">for the Few.</span>
+              <span className="text-gold-gradient">the Few.</span>
             </h2>
             <p className="mx-auto mt-6 max-w-md font-body text-base leading-relaxed text-cream-dim">
-              Mirzava is prepared in limited number and served by enquiry alone.
-              When your occasion deserves a sovereign, write to us.
+              Mirzava is prepared in limited number, by hands that will not be
+              hurried. It is not sold by the plate — it is kept as a standard.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Link href="/contact" className="btn-royal">
-                Request the Table
+              <Link href="/collection" className="btn-royal">
+                Behold the Collection
               </Link>
               <Link href="/experience" className="btn-ghost">
                 The Experience

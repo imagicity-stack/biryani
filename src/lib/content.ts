@@ -16,7 +16,7 @@ export const NAV = [
   { label: "The Craft", href: "/craft" },
   { label: "Collection", href: "/collection" },
   { label: "Experience", href: "/experience" },
-  { label: "Enquire", href: "/contact" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export const HERO_WORDS = ["Royal", "Rare", "Refined", "Revered"];
@@ -212,10 +212,10 @@ export const TESTIMONIES = [
 
 export const CONTACT = {
   invite:
-    "Mirzava is prepared in limited number and served by enquiry. Share your occasion, and our kitchen will write to you.",
+    "Mirzava keeps a single pavilion in the old quarter, beside the Charminar. No menu to browse, no ledger to sign — only a door opened at dusk for those who come seeking the sovereign.",
   pavilion: "The Pavilion",
   address: ["The Gilded Courtyard", "Old Quarter · By the Charminar", "Hyderabad, India"],
-  hours: ["Tuesday — Sunday", "By appointment of the table", "Sundown until late"],
+  hours: ["Tuesday — Sunday", "From sundown, late into the night", "No reservations — only arrivals"],
   phone: "+91 00000 00000",
   email: "table@mirzava.royal",
 };

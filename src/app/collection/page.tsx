@@ -10,7 +10,7 @@ import { COLLECTION, MARQUEE } from "@/lib/content";
 export const metadata: Metadata = {
   title: "The Collection",
   description:
-    "Six sovereign expressions of Mirzava — from Noor-e-Zaffran to Sikandari Raan. Each a crown, served by enquiry alone.",
+    "Six sovereign expressions of Mirzava — from Noor-e-Zaffran to Sikandari Raan. A showcase of the house, not a shop.",
 };
 
 export default function CollectionPage() {
@@ -19,7 +19,7 @@ export default function CollectionPage() {
       <PageHeader
         eyebrow="The Royal Collection"
         title="The Collection"
-        intro="Six sovereign expressions, each a crown in its own right. We list no prices here — Mirzava is composed for your occasion, by enquiry alone."
+        intro="Six sovereign expressions, each a crown in its own right. We list no prices here — Mirzava is a sovereign, not a commodity."
       />
 
       <section className="relative py-12 sm:py-20">
@@ -94,15 +94,15 @@ export default function CollectionPage() {
           <Reveal>
             <Crown className="mx-auto h-9 w-9 text-gold" />
             <h2 className="mt-6 font-display text-5xl leading-tight text-cream sm:text-6xl">
-              Choose Your <span className="text-gold-gradient">Sovereign.</span>
+              Six Crowns, <span className="text-gold-gradient">One Standard.</span>
             </h2>
             <p className="mx-auto mt-6 max-w-md font-body text-base leading-relaxed text-cream-dim">
-              Tell us the occasion and the number at your table. Our kitchen will
-              compose the rest.
+              No two are alike, and none can be hurried. Discover the ritual that
+              brings each sovereign to the table.
             </p>
             <OrnateDivider className="mx-auto my-10 max-w-xs" />
-            <Link href="/contact" className="btn-royal">
-              Request the Table
+            <Link href="/experience" className="btn-royal">
+              The Experience
             </Link>
           </Reveal>
         </div>

@@ -152,8 +152,8 @@ export function Hero() {
           <Link href="/collection" className="btn-royal">
             View the Collection
           </Link>
-          <Link href="/contact" className="btn-ghost">
-            Request the Table
+          <Link href="/heritage" className="btn-ghost">
+            Our Heritage
           </Link>
         </motion.div>
       </motion.div>

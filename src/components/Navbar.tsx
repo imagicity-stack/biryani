@@ -74,7 +74,7 @@ export function Navbar() {
               );
             })}
             <Link href="/contact" className="btn-ghost !px-6 !py-2.5">
-              Enquire
+              Contact
             </Link>
           </div>
 

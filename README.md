@@ -26,9 +26,9 @@ rendered entirely with custom SVG ornaments, gradient meshes and motion:
 | `/` | Home — hero, manifesto, the three vows, stats, collection & heritage teasers |
 | `/heritage` | The lineage, told as a royal timeline |
 | `/craft` | The elements and the six-act ritual of dum |
-| `/collection` | Six sovereign biryanis as a showcase (no prices — by enquiry) |
+| `/collection` | Six sovereign biryanis as a showcase (no prices — a showcase, not a shop) |
 | `/experience` | The dining ceremony in four acts |
-| `/contact` | An elegant by-enquiry form & the pavilion details |
+| `/contact` | The Pavilion — location, hours & direct contact (informational, no booking) |
 
 ## ✦ Stack
 

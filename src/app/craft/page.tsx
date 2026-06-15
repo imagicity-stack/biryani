@@ -88,9 +88,9 @@ export default function CraftPage() {
                     <div
                       className={`md:col-span-5 ${reversed ? "md:order-2" : "md:order-1"}`}
                     >
-                      <div className="relative mx-auto max-w-xs">
+                      <div className="relative mx-auto aspect-square w-full max-w-xs">
                         <div className="arch-clip absolute inset-0 bg-gradient-to-b from-gold/45 to-gold/5" />
-                        <div className="arch-clip absolute inset-[1.5px] flex aspect-square items-center justify-center overflow-hidden bg-noir-ink">
+                        <div className="arch-clip absolute inset-[1.5px] flex items-center justify-center overflow-hidden bg-noir-ink">
                           <Medallion className="animate-spinSlow absolute left-1/2 top-1/2 h-[160%] w-[160%] -translate-x-1/2 -translate-y-1/2 text-gold/10" />
                           <span className="font-display text-[7rem] leading-none text-gold-gradient">
                             {s.step}

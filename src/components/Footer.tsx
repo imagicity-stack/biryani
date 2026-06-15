@@ -50,7 +50,7 @@ export function Footer() {
           </div>
 
           <div className="text-center md:text-right">
-            <p className="eyebrow mb-4">By Enquiry</p>
+            <p className="eyebrow mb-4">Reach Us</p>
             <ul className="space-y-1 font-body text-sm text-cream-dim">
               <li>{CONTACT.email}</li>
               <li>{CONTACT.phone}</li>
