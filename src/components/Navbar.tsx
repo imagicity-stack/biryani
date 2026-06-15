@@ -39,7 +39,11 @@ export function Navbar() {
             : "border-b border-transparent bg-transparent"
         }`}
       >
-        <nav className="mx-auto flex max-w-royal items-center justify-between px-5 py-4 sm:px-8">
+        <nav
+          className={`mx-auto flex max-w-royal items-center justify-between px-5 transition-all duration-500 sm:px-8 ${
+            scrolled ? "py-3 sm:py-4" : "py-6 sm:py-8"
+          }`}
+        >
           {/* Logo */}
           <Link href="/" className="group flex items-center gap-3" aria-label={BRAND.name}>
             <Monogram className="h-10 w-10 text-gold transition-transform duration-700 group-hover:rotate-[8deg]" />
